@@ -5,7 +5,7 @@ export default {
         src: { url: '/dist' },
     },
     plugins: [
-        /* ... */
+        "@snowpack/plugin-typescript"
     ],
     routes: [
         /* Enable an SPA Fallback in development: */
