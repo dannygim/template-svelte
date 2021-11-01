@@ -1,6 +1,8 @@
 {
+    "extends": "@tsconfig/svelte/tsconfig.json",
     "include": [
-        "src"
+        "src",
+        "types",
     ],
     "exclude": [],
     "compilerOptions": {
@@ -16,7 +18,8 @@
         "strict": true,
         "skipLibCheck": true,
         "types": [
-            "snowpack-env"
+            "svelte",
+            "snowpack-env",
         ],
         "forceConsistentCasingInFileNames": true,
         "resolveJsonModule": true,
